@@ -1,3 +1,7 @@
+const func = () => {
+  console.log("start");
+};
+
 navigator.getBattery().then((battery) => {
   function updateInfo() {
     updateChargeInfo();
